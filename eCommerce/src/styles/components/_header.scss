@@ -1,0 +1,38 @@
+.header {
+    background: $blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 35px;
+    //padding: $s-size ;
+}
+
+.header-item {
+    
+    font-size: $m-size;
+    text-decoration: none;
+    color: white;
+    margin: $l-size $s-size   ;
+    transition: color 0.2s;
+
+    
+   
+    &:hover{
+        color: darken($grey, 0.1);
+      
+    }
+}
+
+
+header-flex-container{
+    display: flex;
+   margin:$m-size 0;
+}
+
+.header__search{
+    border: none;
+    margin:none;
+    width: 250px;
+    height: $l-size;
+    margin-bottom: $s-size;
+}

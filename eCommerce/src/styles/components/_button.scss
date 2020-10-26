@@ -1,0 +1,14 @@
+.button {
+    border-radius: none;
+    border: none;
+    font-size: medium;
+    background: $blue;
+    padding: 5px ;
+    width: 100%;
+    color: white;
+    transition: background 0.7s;
+    
+    &:hover{
+        background: darken($color:$blue, $amount: 10%);
+    }
+}
